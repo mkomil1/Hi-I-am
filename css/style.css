@@ -1,0 +1,1539 @@
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+        list-style: none;
+        
+    }
+
+
+html{
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+    .header_section{
+        background: rgba(107, 88, 88, 0.1);
+        padding-top: 35px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+
+    }
+
+    .header_section .bn{
+    position: relative;
+
+    }
+    .header_section .vn{
+        position: absolute;
+        bottom: -4px !important;
+        left: 159px !important;
+        width: 29%;
+        text-align: center;
+        
+    }
+
+    .header_section .vn .mn{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    }
+
+    .header_section h1{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    }
+    .header_section p{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    }
+    .header_section .p{
+        font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    color: #919191;
+    }
+    .header_section .header_icon .fa.fa-instagram{
+        font-size: 42px;
+        background:  #C4C4C4;
+        padding: 4px 8px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+        
+    
+    }
+ 
+
+
+
+    .header_section .header_icon .fa.fa-facebook-official{
+        margin-left: 5%;
+        font-size: 42px;
+        background:  #C4C4C4;
+        padding: 4px 8px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+    
+    }
+    .header_section .header_icon .fa.fa-telegram{
+        margin-left: 5%;
+        font-size: 42px;
+        background:  #C4C4C4;
+        padding: 4px 8px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+    
+    }
+
+    .header_section .nav-item .nav-link{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: gray;
+        text-align: center;
+        
+    }
+
+    .header_section .nav-item .nav-link:hover{
+        color: black;
+    }
+
+    .header_section .we{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        padding: 4px 22px;
+        border-radius: 30px;
+        word-spacing: 3px;
+        background: gray;
+        border: 1px solid white;
+    }
+    .header_icon{
+        margin-top: 105px;
+        margin-bottom: 60px;
+    }
+    .header_bottom{
+        background: url('../img/Background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+    
+    }
+
+    .header_bottom h1{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+    }
+    .header_bottom p{
+        font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 22px;
+    color: white;
+    }
+    .header_bottom button{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
+    background: transparent;
+    }
+    .section_top{
+        padding-top: 100px;
+    }
+    .section_urta{
+        padding-top: 100px;
+    }
+    
+    .section_urta .qalam{
+        margin-bottom: 12px;
+    }
+    .section_top button{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 6px 35px;
+    border: 5px solid black;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    background: white;
+    }
+    .section_top p{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 64%;
+    text-align: center;
+    margin-bottom: 45px;
+    }
+
+
+    .section_top .cl{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    padding: 5px 27px;
+    letter-spacing: 0px;
+    }
+
+    .section_top .section_urta .section_img{
+        margin-top: 30px;
+    }
+    .section_urta h3{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        letter-spacing: 5px;       
+        margin: 0; 
+        transform:translateX(-25px)      
+    }
+    .section_urta p{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        width: 81%;
+        transform: translateX(39px);
+        color: #000000;        
+    }
+    .section_bottom .seperator{
+        margin: 60px auto 0px;
+    }
+
+    .section_bottom button{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 6px 65px;
+        border: 5px solid black;
+        letter-spacing: 5px;
+        line-height: 38px;
+        margin: 80px auto 0px;
+        background: white;
+    }
+    .section_bottom h1{
+        font-weight: 650;
+        font-size: 30px;
+        line-height: 37px; 
+        letter-spacing: 4px; 
+        margin-bottom: 75px;      
+    }
+    .section_bottom p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 4px;
+        margin-top: 15px; 
+        margin-bottom: 80px;       
+    }  
+    .main_top{
+        background: url('../img/main.jpg');
+        min-height: 200px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .6);
+    } 
+    .main_top button{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        background: transparent;
+        border: 5px solid black;
+        padding: 10px 70px;
+        letter-spacing: 5px;
+        margin-top: 63px;
+        outline: none;
+    }
+    .main_urta{
+        width: 100%;
+        background: #1A1A1A;
+        padding: 35px 0px 0px;
+    }
+    .main_urta ul{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .main_urta ul li a{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;      
+        border: 1px solid transparent; 
+        color: #7C7C7C;
+    }
+
+    .main_urta ul li a:hover{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .main_urta hr{
+        background: #AAAAAA;
+        width: 68%;
+        height: 1px;
+    }
+    .main_urta .rasm_blok{
+        padding-top: 68px;
+    }
+    .main_urta h5{
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        color: white;  
+        margin-bottom: 10px;   
+         
+    }
+    .main_urta p{
+        font-weight: 600;
+        font-size: 25px; 
+        color: white;
+        letter-spacing: 7px;
+        margin-bottom: 10px;
+
+    }
+    .main_urta .pp{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: white;       
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+
+    }
+    .main_urta button:nth-last-of-type(1){
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        margin-left: 3%;
+        background: transparent;
+        padding: 4px 25px;
+
+    }
+    .main_urta button:nth-last-of-type(2){
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        background: transparent;
+        padding: 4px 25px;
+        
+    }
+    .main_img{
+        position: relative;
+        width: 100%;
+        height: 240px;  
+
+    }
+    .main_img img{
+        height: 100%;
+    }
+    .rasm_blok{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* opacity: 0; */
+        transform: scale(0);
+        transition: 800ms;
+    }
+    .main_urta .main_img:hover .rasm_blok{
+        /* opacity: 1; */
+        transform: scale(1);
+    }
+    .main_img:hover img{
+        opacity: 0.6;
+       
+    }
+    .main_bottom{
+        padding-top: 100px;
+        width: 100%;
+    }
+    .main_bottom button{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 6px 35px;
+        border: 5px solid black;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .main_bottom p{
+        font-weight: 450;
+        font-size: 15px;
+        line-height: 138.68%;  
+        width: 64%;    
+        margin-bottom: 35px;  
+    }
+    .main_bottom input{
+        border-right: none;
+        border-top: none;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        width: 50%;
+        margin-bottom: 40px;
+        padding: 10px;
+        font-weight: 450;
+        font-size: 14px;    
+        line-height: 17px;   
+        outline: none;    
+    }
+    .main_bottom textarea{
+        border-right: none;
+        border-top: none;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        width: 50%;
+        margin-bottom: 40px;
+        padding: 10px;
+        font-weight: 450;
+        font-size: 14px;    
+        line-height: 17px; 
+        outline: none;
+
+    }
+    .main_bottom .but{
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 20px;
+        border: 2px solid black;
+        border-top: 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        outline: none;
+    
+    }
+    
+    .main_iconlar{
+        background: #1A1A1A;
+        width: 100%;
+        padding-top: 60px;
+    }
+   .main_iconlar .fa.fa-backward{
+    transform: rotate(90deg);
+    color: white;
+    font-size: 15px;
+    margin-bottom: 12px;
+
+   }
+   .main_iconlar h3{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 30px;
+   }
+
+   .main_iconlar .fa.fa-facebook-official{
+       font-size: 30px;
+       color: #1A1A1A;
+       background: white;
+
+      
+   }
+   .main_iconlar .fa.fa-telegram{
+    font-size: 30px;
+    color: #1A1A1A;
+    background: white;
+    margin-left: 2%;
+
+   }
+   .main_iconlar .fa.fa-instagram{
+    font-size: 30px;
+    color: white;
+    background: #1A1A1A;
+    margin-left: 2%;
+
+   }
+   .main_iconlar .fa.fa-envelope-open-o{
+    font-size: 30px;
+    color: white;
+    background: #1A1A1A;
+    margin-left: 2%;
+
+   }
+   .main_iconlar p{
+    font-weight: 480;
+    font-size: 18px;
+    color: white;
+    margin: 35px auto 60px;
+
+   }
+   .main_urta h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    margin: 10px auto;
+   }
+
+
+
+
+
+
+    
+
+
+
+
+
+    @media (max-width: 991px) {
+
+
+        /* inbnbmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm...........................................................mmm */
+    
+        .header_section .navbar-nav{
+            width: 100% !important;
+        }
+        .header_section h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+        }
+        .header_section p {
+            /* font-style: normal; */
+            font-weight: 650;
+            font-size: 60px;
+        }
+        .header_section .p {
+            /* font-style: normal; */
+            font-weight: 700;
+            font-size: 20px;
+            color: #919191;
+        }
+        .header_section .header_icon .fa.fa-instagram {
+            font-size: 38px;
+            background: #C4C4C4;
+            padding: 3px 7px;
+            border: 1px solid transparent;
+            box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+        }
+        .header_section .header_icon .fa.fa-facebook-official{
+            margin-left: 5%;
+            font-size: 38px;
+            background: #C4C4C4;
+            padding: 3px 7px;
+            border: 1px solid transparent;
+            box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+      
+        
+        }
+        .header_section .header_icon .fa.fa-telegram{
+            margin-left: 5%;
+            font-size: 38px;
+            background: #C4C4C4;
+            padding: 3px 7px;
+            border: 1px solid transparent;
+            box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+        
+        }
+        .header_icon {
+            margin-top: 97px;
+        }
+        .header_section .vn .mn {
+            /* font-style: normal; */
+            font-weight: 500;
+            font-size: 14px;
+            text-align: center;
+        }
+        .header_section .vn {
+            position: absolute;
+            bottom: -4px !important;
+            left: 98px !important;
+            width: 42%;
+            text-align: center;
+        }
+        .header_bottom h1 {
+            /* font-style: normal; */
+            font-weight: 600;
+            font-size: 27px;
+            margin-bottom: 12px;
+            color: white;
+        }
+        .header_bottom p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .header_bottom button {
+            /* font-style: normal; */
+            font-weight: 520;
+            font-size: 13px;
+            padding: 4px 18px;
+            border-top: none;
+            border-bottom: none;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+            color: white;
+            background: transparent;
+        }
+        .header_bottom img{
+            width: 100%;
+            height: 87%;
+        }
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.5);
+            border-color: rgba(0,0,0,.1);
+            background: white;
+            font-size: 18px;
+        }
+        .header_section .navbar img{
+            width: 85%;
+        }
+        .section_top button {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            padding: 5px 33px;
+            border: 5px solid black;
+            letter-spacing: 3px;
+            margin-bottom: 37px;
+        }
+        .section_top p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            width: 57%;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        .section_top .cl {
+            font-style: normal;
+            font-weight: 550;
+            font-size: 14px;
+            border: 2px solid black;
+            border-top: none;
+            border-bottom: none;
+            padding: 4px 24px;
+            letter-spacing: 0px;
+        }
+
+        /*   kiyingi formatga moslashtirish */
+        
+        .section_img img{
+            width: 90%;
+        }
+        .section_urta h3{
+            font-size: 21px;
+        }
+        .section_urta p {
+            font-weight: 280;
+            font-size: 13px;
+            line-height: 18px;
+            width: 66%;
+            transform: translateX(39px );
+            color: #000000;
+        }
+        .section_bottom .seperator{
+            width: 23%;
+        }
+
+        .section_bottom button{
+            font-weight: bold;
+            font-size: 25px;
+            padding: 5px 42px;
+            border: 5px solid black;
+            letter-spacing: 5px;
+            line-height: 36px;
+            margin: 65px auto 0px;
+            background: white;
+        }   
+
+        .section_bottom h1 {
+            font-weight: 620;
+            font-size: 27px;
+            line-height: 35px;
+            letter-spacing: 4px;
+            margin-bottom: 70px;
+        }   
+
+        .section_bottom p {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            letter-spacing: 4px;
+            margin-top: 14px;
+            margin-bottom: 72px;
+        }
+
+        .main_top button {
+            font-weight: 550;
+            font-size: 28px;
+            line-height: 36px;
+            background: transparent;
+            border: 5px solid black;
+            padding: 9px 65px;
+            letter-spacing: 5px;
+            margin-top: 68px;
+        }
+        
+        .main_urta h2{        
+                font-size: 18px;
+                font-weight: 550;
+                line-height: 22px;
+                color: white;
+                margin: 10px auto;        
+        }
+
+      
+        .main_urta h5{
+            font-weight: 550;
+            font-size: 9px;
+            line-height: 11px;
+            color: white;  
+            margin-bottom: 9px;   
+             
+        }
+        .main_urta p{
+            font-weight: 550;
+            font-size: 23px; 
+            color: white;
+            letter-spacing: 7px;
+            margin-bottom: 9px;
+    
+        }
+        .main_urta .pp{
+            font-weight: 480;
+            font-size: 9px;
+            line-height: 11px;
+            color: white;       
+            letter-spacing: 1px;
+            margin-bottom: 9px;
+    
+        }
+        .main_urta button:nth-last-of-type(1){
+            font-weight: 550;
+            font-size: 11px;
+            line-height: 14px;
+            color: white;
+            border: 2px solid white;
+            border-top: none;
+            border-bottom: none;
+            letter-spacing: 4px;
+            margin-left: 3%;
+            background: transparent;
+            padding: 4px 23px;
+    
+        }
+        .main_urta button:nth-last-of-type(2){
+            font-weight: 550;
+            font-size: 11px;
+            line-height: 14px;
+            color: white;
+            border: 2px solid white;
+            border-top: none;
+            border-bottom: none;
+            letter-spacing: 4px;
+            background: transparent;
+            padding: 4px 23px;
+        }    
+
+        .main_bottom button {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            padding: 5px 33px;
+            border: 5px solid black;
+            letter-spacing: 5px;
+            margin-bottom: 38px;
+            background: white;
+        }
+
+        .main_bottom p {
+            font-weight: 430;
+            font-size: 14px;
+            line-height: 138.68%;
+            width: 60%;
+            margin-bottom: 33px;
+        }
+        .main_bottom img{
+            width: 23%;
+        }
+        .main_bottom input {
+            border-right: none;
+            border-top: none;
+            border-left: 3px solid black;
+            border-bottom: 3px solid black;
+            width: 48%;
+            margin-bottom: 37px;
+            padding: 10px;
+            font-weight: 450;
+            font-size: 13px;
+            line-height: 17px;
+            
+        }
+
+        .main_bottom textarea {
+            border-right: none;
+            border-top: none;
+            border-left: 3px solid black;
+            border-bottom: 3px solid black;
+            width: 48%;
+            margin-bottom: 38px;
+            padding: 10px;
+            font-weight: 450;
+            font-size: 13px;
+            line-height: 17px;
+            height: 123px;
+        }
+        .main_bottom .but{
+             
+            font-size: 15px;
+            font-weight: 550;
+            line-height: 19px;
+            border: 2px solid black;
+            border-top: 0;
+            border-bottom: 0;
+            letter-spacing: 1px;
+             margin-bottom: 38px;
+            
+        }
+        .main_iconlar h3 {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .main_iconlar p {
+            font-weight: 480;
+            font-size: 17px;
+            color: white;
+            margin: 35px auto 60px;
+        }
+        
+
+}
+
+
+@media (max-width: 767px) {
+    .header_section h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        
+    }
+    .header_section p {
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 55px;
+        text-align: center;
+    }
+    .header_section .p {
+        /* font-style: normal; */
+        font-weight: 650;
+        font-size: 17px;
+        color: #919191;
+        text-align: center;
+    }
+    .header_section .header_icon .fa.fa-instagram {
+        font-size: 35px;
+        background: #C4C4C4;
+        padding: 3px 6px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+    }
+    .header_section .header_icon .fa.fa-facebook-official{
+        margin-left: 5%;
+        font-size: 35px;
+        background: #C4C4C4;
+        padding: 3px 6px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+       
+  
+    
+    }
+    .header_section .header_icon .fa.fa-telegram{
+        margin-left: 5%;
+        font-size: 35px;
+        background: #C4C4C4;
+        padding: 3px 6px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+
+    }
+    .header_icon {
+        margin-top: 90px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .header_section .bn {
+        position: relative;
+        text-align: center;
+    }
+    .header_section img{
+        width: 85%;
+    }
+    .header_section .vn .mn {
+        /* font-style: normal; */
+        font-weight: 500;
+        font-size: 13px;
+        text-align: center;
+    }
+    .header_section .vn {
+        position: absolute;
+        bottom: -4px !important;
+        left: 155px !important;
+        width: 38%;
+        text-align: center;
+    }
+    .header_bottom h1 {
+        /* font-style: normal; */
+        font-weight: 580;
+        font-size: 25px;
+        margin-bottom: 12px;
+        color: white;
+        text-align: center;
+
+    }
+    
+    .header_bottom p {
+        font-style: normal;
+        font-weight: 280;
+        font-size: 11px;
+        margin-bottom: 19px;
+        color: white;
+        text-align: center;
+    }   
+    .header_bottom .ll{
+        text-align: center;
+    }
+    .header_bottom button {
+        /* font-style: normal; */
+        font-weight: 500;
+        font-size: 12px;
+        padding: 4px 16px;
+        border-top: none;
+        border-bottom: none;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        color: white;
+        background: transparent;
+        
+    }
+    .header_bottom img{
+        width: 50%;
+        margin-top: 20px;
+
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        background: white;
+        font-size: 18px;
+    }
+    .header_section .navbar img{
+        width: 85%;
+    }
+    .section_top button {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 4px 28px;
+        border: 4px solid black;
+        letter-spacing: 2px;
+        margin-bottom: 34px;
+    }
+    .section_top p {
+        font-style: normal;
+        font-weight: 380;
+        font-size: 12px;
+        width: 52%;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+    .section_top .cl {
+        font-style: normal;
+        font-weight: 530;
+        font-size: 12px;
+        border: 2px solid black;
+        border-top: none;
+        border-bottom: none;
+        padding: 4px 20px;
+        letter-spacing: 0px;
+    }
+     /*   kiyingi formatga moslashtirish */
+        
+     .section_img img{
+        width: 90%;
+    }
+    .section_urta h3{
+        font-size: 20px;
+    }
+    .section_urta p {
+        font-weight: 280;
+        font-size: 13px;
+        line-height: 18px;
+        width: 66%;
+        transform: translateX(39px);
+        color: #000000;
+    }
+    .section_bottom .seperator{
+        width: 23%;
+    }
+
+    .section_bottom button{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        padding: 4px 28px;
+        border: 4px solid black;
+        letter-spacing: 2px;
+        margin-bottom: 34px;
+    }   
+
+    .section_bottom h1 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 4px;
+        margin-bottom: 64px;
+        text-align: center;
+    }   
+
+    .section_bottom p {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 27px;
+        letter-spacing: 4px;
+        margin-top: 14px;
+        margin-bottom: 65px;
+    }
+
+    .main_top button {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        background: transparent;
+        border: 4px solid black;
+        padding: 8px 60px;
+        letter-spacing: 5px;
+        margin-top: 68px;
+    }
+    
+    .main_urta h2{        
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 22px;
+            color: white;
+            margin: 9px auto;        
+    }
+
+ 
+    .main_urta h5{
+        font-weight: 530;
+        font-size: 9px;
+        line-height: 11px;
+        color: white;  
+        margin-bottom: 9px;   
+         
+    }
+    .main_urta p{
+        font-weight: 550;
+        font-size: 23px; 
+        color: white;
+        letter-spacing: 7px;
+        margin-bottom: 9px;
+
+    }
+    .main_urta .pp{
+        font-weight: 480;
+        font-size: 8px;
+        line-height: 11px;
+        color: white;       
+        letter-spacing: 1px;
+        margin-bottom: 9px;
+
+    }
+    .main_urta button:nth-last-of-type(1){
+        font-weight: 530;
+        font-size: 10px;
+        line-height: 13px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        margin-left: 3%;
+        background: transparent;
+        padding: 4px 20px;
+
+    }
+    .main_urta button:nth-last-of-type(2){
+        font-weight: 530;
+        font-size: 10px;
+        line-height: 13px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        background: transparent;
+        padding: 4px 20px;
+    } 
+
+    .main_bottom button {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        padding: 5px 31px;
+        border: 4px solid black;
+        letter-spacing: 5px;
+        margin-bottom: 35px;
+        background: white;
+    }
+
+    .main_bottom p {
+        font-weight: 430;
+        font-size: 13px;
+        line-height: 138.68%;
+        width: 56%;
+        margin-bottom: 30px;
+    }
+    .main_bottom img{
+        width: 22%;
+    }
+    .main_bottom input {
+        border-right: none;
+        border-top: none;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        width: 46%;
+        margin-bottom: 34px;
+        padding: 9px;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 17px;
+        
+    }
+
+    .main_bottom textarea {
+        border-right: none;
+        border-top: none;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        width: 46%;
+        margin-bottom: 38px;
+        padding: 9px;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 17px;
+        height: 120px;
+    }
+    .main_bottom .but{
+         
+        font-size: 14px;
+        font-weight: 530;
+        line-height: 19px;
+        border: 2px solid black;
+        border-top: 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+         margin-bottom: 35px;
+        
+    }
+    .main_iconlar h3 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        margin-bottom: 28px;
+    }
+    .main_iconlar p {
+        font-weight: 480;
+        font-size: 16px;
+        color: white;
+        margin: 33px auto 60px;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .header_section h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .header_section p {
+        /* font-style: normal; */
+        font-weight: 550;
+        font-size: 52px;
+        text-align: center;
+    }
+    .header_section .p {
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 15px;
+        color: #919191;
+        text-align: center;
+    }
+    .header_section .header_icon .fa.fa-instagram {
+        font-size: 32px;
+        background: #C4C4C4;
+        padding: 3px 5px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+    }
+    .header_section .header_icon .fa.fa-facebook-official{
+        margin-left: 4%;
+        font-size: 32px;
+        background: #C4C4C4;
+        padding: 3px 5px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+  
+    
+    }
+    .header_section .header_icon .fa.fa-telegram{
+        margin-left: 4%;
+        font-size: 32px;
+        background: #C4C4C4;
+        padding: 3px 5px;
+        border: 1px solid transparent;
+        box-shadow: -1px 4px 4px rgb(0 0 0 / 50%);
+
+    }
+    .header_icon {
+        margin-top: 80px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .header_section .bn {
+        position: relative;
+        text-align: center;
+    }
+    .header_section img{
+        width: 70%;
+    }
+    .header_section .vn .mn {
+        /* font-style: normal; */
+        font-weight: 450;
+        font-size: 12px;
+        text-align: center;
+    }
+    .header_section .vn {
+        position: absolute;
+        bottom: -4px !important;
+        left: 155px !important;
+        width: 38%;
+        text-align: center;
+    }
+    .header_bottom h1 {
+        /* font-style: normal; */
+        font-weight: 520;
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+
+    }
+    
+    .header_bottom p {
+        font-style: normal;
+        font-weight: 250;
+        font-size: 10px;
+        margin-bottom: 15px;
+        color: white;
+        text-align: center;
+    }   
+    .header_bottom .ll{
+        text-align: center;
+    }
+    .header_bottom button {
+        /* font-style: normal; */
+        font-weight: 450;
+        font-size: 11px;
+        padding: 3px 13px;
+        border-top: none;
+        border-bottom: none;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        color: white;
+        background: transparent;
+        
+    }
+    .header_bottom img{
+        width: 46%;
+        margin-top: 18px;
+
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        background: white;
+        font-size: 15px;
+    }
+    .header_section .navbar img{
+        width: 70%;
+    }
+    .section_top button {
+        font-style: normal;
+        font-weight: 480;
+        font-size: 29px;
+        padding: 4px 25px;
+        border: 4px solid black;
+        letter-spacing: 2px;
+        margin-bottom: 28px;
+    }
+    .section_top p {
+        font-style: normal;
+        font-weight: 350;
+        font-size: 11px;
+        width: 48%;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+    .section_top .cl {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        border: 2px solid black;
+        border-top: none;
+        border-bottom: none;
+        padding: 4px 18 px;
+        letter-spacing: 0px;
+        
+    }
+         /*   kiyingi formatga moslashtirish */
+        
+         .section_img img{
+            width: 90%;
+        }
+        .section_urta h3{
+            font-size: 19px;
+        }
+        .section_urta p {
+            font-weight: 280;
+            font-size: 12;
+            line-height: 17px;
+            width: 62%;
+            transform: translateX(39px);
+            color: #000000;
+        }
+        .section_bottom .seperator{
+            width: 22%;
+        }
+    
+        .section_bottom button{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            padding: 4px 26px;
+            border: 3px solid black;
+            letter-spacing: 2px;
+            margin-bottom: 32px;
+        }   
+    
+        .section_bottom h1 {
+            font-weight: 550;
+            font-size: 23px;
+            line-height: 33px;
+            letter-spacing: 4px;
+            margin-bottom: 60px;
+            text-align: center;
+        }   
+    
+        .section_bottom p {
+            font-weight: 390;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 4px;
+            margin-top: 14px;
+            margin-bottom: 62px;
+        }
+    
+        .main_top button {
+            font-weight: 490;
+            font-size: 24px;
+            line-height: 33px;
+            background: transparent;
+            border: 4px solid black;
+            padding: 7px 57px;
+            letter-spacing: 4px;
+            margin-top: 65px;
+        }
+
+        /* salom */
+        
+ 
+    .main_urta h5{
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        color: white;  
+        margin-bottom: 8px;   
+         
+    }
+    .main_urta p{
+        font-weight: 530;
+        font-size: 21px; 
+        color: white;
+        letter-spacing: 6px;
+        margin-bottom: 9px;
+
+    }
+    .main_urta .pp{
+        font-weight: 450;
+        font-size: 7px;
+        line-height: 10px;
+        color: white;       
+        letter-spacing: 1px;
+        margin-bottom: 9px;
+
+    }
+    .main_urta button:nth-last-of-type(1){
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 12px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        margin-left: 3%;
+        background: transparent;
+        padding: 4px 18px;
+
+    }
+    .main_urta button:nth-last-of-type(2){
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 12px;
+        color: white;
+        border: 2px solid white;
+        border-top: none;
+        border-bottom: none;
+        letter-spacing: 4px;
+        background: transparent;
+        padding: 4px 18px;
+    } 
+        
+        .main_urta h2{        
+                font-size: 16px;
+                font-weight: 470;
+                line-height: 21px;
+                color: white;
+                margin: 9px auto;        
+        }
+    
+        .main_bottom button {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 5px 28px;
+            border: 4px solid black;
+            letter-spacing: 4px;
+            margin-bottom: 32px;
+            background: white;
+        }
+    
+        .main_bottom p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 138.68%;
+            width: 52%;
+            margin-bottom: 26px;
+        }
+        .main_bottom img{
+            width: 21%;
+        }
+        .main_bottom input {
+            border-right: none;
+            border-top: none;
+            border-left: 1px solid gray;
+            border-bottom: 1px solid gray;
+            width: 44%;
+            margin-bottom: 34px;
+            padding: 8px;
+            font-weight: 420;
+            font-size: 11px;
+            line-height: 15px;
+            
+        }
+    
+        .main_bottom textarea {
+            border-right: none;
+            border-top: none;
+            border-left: 1px solid gray;
+            border-bottom: 1px solid gray;
+            width: 44%;
+            margin-bottom: 35px;
+            padding: 8px;
+            font-weight: 420;
+            font-size: 11px;
+            line-height: 15px;
+            height: 110px;
+        }
+        .main_bottom .but{
+             
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 17px;
+            border: 2px solid black;
+            border-top: 0;
+            border-bottom: 0;
+            letter-spacing: 1px;
+             margin-bottom: 32px;
+            
+        }
+        .main_iconlar h3 {
+            font-weight: 550;
+            font-size: 13px;
+            line-height: 15px;
+            color: white;
+            margin-bottom: 25px;
+        }
+        .main_iconlar p {
+            font-weight: 450;
+            font-size: 14px;
+            color: white;
+            margin: 30px auto 55px;
+        }
+      
+
+
+
+    
+    
+    }
+
